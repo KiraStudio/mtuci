@@ -1,0 +1,13 @@
+﻿@model List<Mtuci.Models.TestViewModel>
+
+<h1>Test page</h1>
+<p>This is test page view</p>
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>
+            @item.Name is @item.Age years old
+        </li>
+    }
+</ul>
